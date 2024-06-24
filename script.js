@@ -11,10 +11,10 @@ const addForm = (e) => {
     alert('Please fill out the required fields!')
     saveData();
   } else {
-    firstName.innerHTML = firstName.value;
-    lastName.innerHTML = lastName.value;
-    email.innerHTML = email.value;
-    password.innerHTML = password.value;
+    firstName.innerHTML = firstName.value.trim();
+    lastName.innerHTML = lastName.value.trim();
+    email.innerHTML = email.value.trim();
+    password.innerHTML = password.value();
     saveData();
   }
   saveData();
