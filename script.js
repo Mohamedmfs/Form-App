@@ -17,6 +17,10 @@ const addForm = (e) => {
     password.innerHTML = password.value.trim();
     saveData();
   }
+  firstName.focus();
+  lastName.focus();
+  email.focus();
+  password.focus();
   saveData();
 }
 
