@@ -14,7 +14,7 @@ const addForm = (e) => {
     firstName.innerHTML = firstName.value.trim();
     lastName.innerHTML = lastName.value.trim();
     email.innerHTML = email.value.trim();
-    password.innerHTML = password.value();
+    password.innerHTML = password.value.trim();
     saveData();
   }
   saveData();
